@@ -1,0 +1,11 @@
+body {
+  /*font-family: sans-serif; */
+}
+/* при наведении появляется подсказка с large фото */
+.photo-tip {
+  display: none;
+}
+.photo:hover p {
+  position: absolute;
+  display: block;
+}
