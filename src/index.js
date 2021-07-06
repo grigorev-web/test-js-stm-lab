@@ -139,7 +139,7 @@ function dateFormat(date) {
   let MM =
     new Date(date).getMonth() < 10
       ? "0" + new Date(date).getMonth()
-      : new Date(date).getDate();
+      : new Date(date).getMonth();
   // year
   let yyyy = new Date(date).getFullYear();
   // return formatted string
